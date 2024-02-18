@@ -1,6 +1,6 @@
 local P, R, S, C, Cp, Ct, Cg, Cc, Cs
 do
-  local _obj_0 = require("lpeg")
+  local _obj_0 = require("lulpeg")
   P, R, S, C, Cp, Ct, Cg, Cc, Cs = _obj_0.P, _obj_0.R, _obj_0.S, _obj_0.C, _obj_0.Cp, _obj_0.Ct, _obj_0.Cg, _obj_0.Cc, _obj_0.Cs
 end
 local alphanum = R("az", "AZ", "09")

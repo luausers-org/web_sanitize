@@ -2,7 +2,7 @@
 import void_tags, optional_tags  from require "web_sanitize.data"
 import open_tag, close_tag, html_comment, cdata, unescape_html_text, escape_html_text, begin_raw_text_tag, alphanum from require "web_sanitize.patterns"
 
-import P, C, Cc, Cs, Cmt, Cp from require "lpeg"
+import P, C, Cc, Cs, Cmt, Cp from require "lulpeg"
 
 match_text = P"<"^-1 * P(1 - P"<")^1
 

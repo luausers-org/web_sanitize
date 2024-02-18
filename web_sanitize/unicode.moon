@@ -1,4 +1,4 @@
-import P, Cs, R, S from require "lpeg"
+import P, Cs, R, S from require "lulpeg"
 
 cont = R("\128\191")
 utf8_codepoint = R("\194\223") * cont +

@@ -1,6 +1,6 @@
 local P, Cs, R, S
 do
-  local _obj_0 = require("lpeg")
+  local _obj_0 = require("lulpeg")
   P, Cs, R, S = _obj_0.P, _obj_0.Cs, _obj_0.R, _obj_0.S
 end
 local cont = R("\128\191")

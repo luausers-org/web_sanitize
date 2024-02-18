@@ -1,5 +1,5 @@
 
-import P, R, S, C, Cp, Ct, Cg, Cc, Cs from require "lpeg"
+import P, R, S, C, Cp, Ct, Cg, Cc, Cs from require "lulpeg"
 
 alphanum = R "az", "AZ", "09"
 num = R "09"

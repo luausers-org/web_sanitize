@@ -5,7 +5,7 @@ do
   local _obj_0 = require("web_sanitize.css_types")
   to_type_string, check_type = _obj_0.to_type_string, _obj_0.check_type
 end
-local lpeg = require("lpeg")
+local lpeg = require("lulpeg")
 local R, S, V, P
 R, S, V, P = lpeg.R, lpeg.S, lpeg.V, lpeg.P
 local C, Cs, Ct, Cmt, Cg, Cb, Cc, Cp

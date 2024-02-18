@@ -2,7 +2,7 @@
 {properties: allowed_properties} = require "web_sanitize.css_whitelist"
 import to_type_string, check_type from require "web_sanitize.css_types"
 
-lpeg = require "lpeg"
+lpeg = require "lulpeg"
 
 import R, S, V, P from lpeg
 import C, Cs, Ct, Cmt, Cg, Cb, Cc, Cp from lpeg

@@ -1,5 +1,5 @@
 local P
-P = require("lpeg").P
+P = require("lulpeg").P
 local short_names = {
   number = "n",
   string = "s",

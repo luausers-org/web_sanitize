@@ -10,7 +10,7 @@ do
 end
 local P, C, Cc, Cs, Cmt, Cp
 do
-  local _obj_0 = require("lpeg")
+  local _obj_0 = require("lulpeg")
   P, C, Cc, Cs, Cmt, Cp = _obj_0.P, _obj_0.C, _obj_0.Cc, _obj_0.Cs, _obj_0.Cmt, _obj_0.Cp
 end
 local match_text = P("<") ^ -1 * P(1 - P("<")) ^ 1

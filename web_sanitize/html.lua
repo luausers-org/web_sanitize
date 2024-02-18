@@ -4,7 +4,7 @@ do
   insert, concat = _obj_0.insert, _obj_0.concat
 end
 local unpack = unpack or table.unpack
-local lpeg = require("lpeg")
+local lpeg = require("lulpeg")
 local R, S, V, P
 R, S, V, P = lpeg.R, lpeg.S, lpeg.V, lpeg.P
 local C, Cs, Ct, Cmt, Cg, Cb, Cc, Cp

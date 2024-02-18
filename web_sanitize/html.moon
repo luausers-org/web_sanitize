@@ -1,7 +1,7 @@
 import insert, concat from table
 unpack = unpack or table.unpack
 
-lpeg = require "lpeg"
+lpeg = require "lulpeg"
 
 import R, S, V, P from lpeg
 import C, Cs, Ct, Cmt, Cg, Cb, Cc, Cp from lpeg

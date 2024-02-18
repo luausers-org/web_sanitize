@@ -1,5 +1,5 @@
 
-import P from require "lpeg"
+import P from require "lulpeg"
 
 short_names = {
   number: "n"
